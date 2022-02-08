@@ -8,13 +8,32 @@ namespace ShapesLib_UnitTests
     public class CircleTests
     {
         [TestMethod]
-        public void CircleAreaTest()
+        public void Area_1_PI()
         {
+            //Arrange
             var circle = new Circle(1);
+            double expected = Math.PI;
 
-            var result = circle.Area() == Math.PI;
+            //Act
+            var result = circle.Area();
 
-            Assert.IsTrue(result);
+            //Assert
+            Assert.AreEqual(result, expected);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Exist_neg1_exeption()
+        {
+            //Arrange
+            var circle = new Circle(-1);
+            double expected = Math.PI;
+
+            //Act
+            var result = circle.Area();
+
+            //Assert
+            Assert.AreEqual(result, expected);
         }
     }
 }

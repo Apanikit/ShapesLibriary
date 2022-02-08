@@ -22,42 +22,44 @@ namespace ShapesLib_UnitTests
         }
 
         [TestMethod]
-        public void Exist_0x0x0_false()
+        [ExpectedException(typeof(ArgumentException))]
+        public void Exist_0x0x0_exeption()
         {
             //Arrange
             var triangle = new Triangle(0, 0, 0);
 
             //Act
-            var result = triangle.Exist();
+            var area = triangle.Area();
+            var right = triangle.isRight();
 
             //Assert
-            Assert.IsFalse(result);
         }
 
         [TestMethod]
-        public void Exist_1x2x100_false()
+        [ExpectedException(typeof(ArgumentException))]
+        public void Exist_1x2x100_exeption()
         {
             //Arrange
             var triangle = new Triangle(1, 2, 100);
 
             //Act
-            var result = triangle.Exist();
+            var area = triangle.Area();
+            var right = triangle.isRight();
 
             //Assert
-            Assert.IsFalse(result);
         }
 
         [TestMethod]
-        public void Exist_10x12x15_true()
+        public void Exist_10x12x15_correct()
         {
             //Arrange
             var triangle = new Triangle(10, 12, 15);
 
             //Act
-            var result = triangle.Exist();
+            var area = triangle.Area();
+            var right = triangle.isRight();
 
             //Assert
-            Assert.IsTrue(result);
         }
 
         [TestMethod]

@@ -10,8 +10,21 @@ namespace ShapesLib
     {
         private double R { get; set; }
 
-        public Circle(double R) { this.R = R; }
+        public Circle(double R) 
+        {
+            this.R = R;
+            Exist();
+        }
 
-        public override double Area(){ return Math.PI * R * R; }
+        public override double Area()
+        {
+            Exist();
+            return Math.PI * R * R; 
+        }
+
+        private void Exist()
+        {
+            if (R <= 0) { throw new ArgumentException("Circle does not exist"); }
+        }
     }
 }

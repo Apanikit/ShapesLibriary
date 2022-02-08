@@ -10,3 +10,15 @@ C:\Users\user\source\repos\ShapesLib\ShapesLib\obj\Debug\net5.0\ShapesLibriary.c
 C:\Users\user\source\repos\ShapesLib\ShapesLib\obj\Debug\net5.0\ShapesLibriary.dll
 C:\Users\user\source\repos\ShapesLib\ShapesLib\obj\Debug\net5.0\ref\ShapesLibriary.dll
 C:\Users\user\source\repos\ShapesLib\ShapesLib\obj\Debug\net5.0\ShapesLibriary.pdb
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\bin\Debug\net5.0\ShapesLibriary.deps.json
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\bin\Debug\net5.0\ShapesLibriary.dll
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\bin\Debug\net5.0\ref\ShapesLibriary.dll
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\bin\Debug\net5.0\ShapesLibriary.pdb
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.AssemblyInfo.cs
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.dll
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ref\ShapesLibriary.dll
+C:\Users\user\source\repos\ShapesLib\ShapesLibriary\obj\Debug\net5.0\ShapesLibriary.pdb
