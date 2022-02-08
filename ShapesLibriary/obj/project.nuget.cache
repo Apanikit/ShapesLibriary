@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/AxypycjfxvZp7qoWG/GWXLV9/5a02zibn1zNGfdJRDq2chH9C6lORBcT8PVQ7qAKADM//9JGX27BEenQusiZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\ShapesLib\\ShapesLibriary\\ShapesLibriary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
